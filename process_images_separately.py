@@ -108,8 +108,7 @@ def process_image(image_path: str | Path) -> None:
 
 if __name__ == "__main__":
     path_list = [
-        '/home/gjh/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第一章 勾股定理/1 探索勾股定理',
-        '/home/gjh/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第一章 勾股定理/2 一定是直角三角形吗',
+        '/home/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第一章 勾股定理/1 探索勾股定理',
     ]
     # for path in path_list:
     #     process_dir(path)
@@ -118,7 +117,7 @@ if __name__ == "__main__":
     #
     # process_dir(input_dir)
     path_ = [
-        '/home/gjh/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第七章 证明/3 平行线的证明/img_0003.png'
+        '/home/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第七章 证明/3 平行线的证明/img_0003.png'
     ]
     for p in path_:
         process_image(p)

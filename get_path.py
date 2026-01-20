@@ -15,7 +15,7 @@ def list_json_files(root_dir):
 
 
 if __name__ == "__main__":
-    folder_path = "/home/gjh/datasets/中考真题/广东省/语文/七年级/统编版/上册"  # ← 改成你的文件夹路径
+    folder_path = "/home/datasets/中考真题/广东省/语文/七年级/统编版/上册"  # ← 改成你的文件夹路径
     json_paths = list_json_files(folder_path)
 
     for path in json_paths:

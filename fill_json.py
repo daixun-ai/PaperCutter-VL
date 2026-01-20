@@ -107,6 +107,6 @@ def list_json_files(root_dir):
 if __name__ == "__main__":
     from pathlib import Path
 
-    JSON_FILES = list_json_files(r"/home/gjh/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第二章 实数/")
+    JSON_FILES = list_json_files(r"/home/datasets/中考真题/广东省/数学/八年级/北师大版/上册/第二章 实数/")
     for json_file in JSON_FILES:
         process_path(Path(json_file))
