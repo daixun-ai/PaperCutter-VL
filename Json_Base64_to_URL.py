@@ -15,7 +15,7 @@ from PIL import Image
 
 def base64_to_file_and_upload(base64_str, file_field_name='file', ext='jpg'):
     temp_filename = f"{uuid.uuid4().hex}.{ext}"
-    api_url = "http://222.85.202.67:689/school-api/public-resource/uploadNuoen"
+    api_url = "http://xx.xx.xx.xx:xxx/"# 你的接口地址
     auth_token = "RAuwGBaukHPcsU3FprBQxwaMdx3GVdENzmF74WTNM6VHcmADSU"
 
     try:
@@ -39,7 +39,7 @@ def base64_to_file_and_upload(base64_str, file_field_name='file', ext='jpg'):
         if isinstance(result, dict) and 'url' in result:
             url = result['url'].replace(
                 'http://127.0.0.1:48180',
-                'http://222.85.202.67:689/school-api'
+                'http://xxx.xxx.xxx.xx:xxx/xxxx'
             )
 
             if '://' in url:
