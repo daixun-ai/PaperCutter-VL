@@ -92,6 +92,6 @@ curl -X POST "http://127.0.0.1:8080/parse-docs" \
 
 
 ## 重要文件参考
-- API 服务入口：[app.py](file:///home/gjh/workspace/github-project/PaperCutter-VL/app.py)
-- 主流程逻辑：[main.py](file:///home/gjh/workspace/github-project/PaperCutter-VL/main.py)
-- 模型下载脚本：[models/downloads-models.py](file:///home/gjh/workspace/github-project/PaperCutter-VL/models/downloads-models.py)
+- API 服务入口：[app.py]
+- 主流程逻辑：[main.py]
+- 模型下载脚本：[models/downloads-models.py]
