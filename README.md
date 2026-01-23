@@ -102,16 +102,6 @@ uvicorn app:app --host 0.0.0.0 --port 8080 --workers 4 --log-level info
 
 ## 常用脚本
 - 批量单图转 JSON（本地推理）：[process_images_separately.py]
-- 批量重命名图片：将文件名统一为 img_0001 形式  
-  [rename_image.py]
-- 目录元信息填充到 JSON：从目录结构提取年级/章节/节等，回填到 JSON  
-  [fill_json.py]
-- 获取指定目录下所有 JSON 路径：[get_path.py]
-- 将 JSON 内 Base64 图片上传后替换为 URL（兼容已有平台 API）  
-  [Json_Base64_to_URL.py]
-- 批处理示例脚本（调用 CLI 主入口）：[run_all.sh]
-- 基于远程 API 的处理流水线示例（先重命名，再逐图调用 /parse-docs）：  
-  [Pipeline.py]
 
 
 ## 模型与依赖
